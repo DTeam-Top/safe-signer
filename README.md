@@ -1,7 +1,7 @@
 # safe-signer
 
 ![build](https://github.com/DTeam-Top/safe-signer/actions/workflows/ci.yml/badge.svg)
-![check-code-coverage](https://img.shields.io/badge/code--coverage-98.22%25-brightgreen)
+![check-code-coverage](https://img.shields.io/badge/code--coverage-80.13%25-green)
 [![npm](https://img.shields.io/npm/dt/@dteam/safe-signer)](https://www.npmjs.com/package/@dteam/safe-signer)
 [![npm (scoped)](https://img.shields.io/npm/v/@dteam/safe-signer)](https://www.npmjs.com/package/@dteam/safe-signer)
 
