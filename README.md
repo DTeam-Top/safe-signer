@@ -1,5 +1,8 @@
 # safe-signer
 
+[![npm](https://img.shields.io/npm/dt/@dteam/safe-signer)](https://www.npmjs.com/package/@dteam/safe-signer)
+[![npm (scoped)](https://img.shields.io/npm/v/@dteam/safe-signer)](https://www.npmjs.com/package/@dteam/safe-signer)
+
 **If you need a wallet or singer in your backend server, this project is for you.**
 
 It aims to create an [ethers.Signer](https://docs.ethers.org/v5/api/signer/#Signer) from the third party secret storages. Currently, it supports:
