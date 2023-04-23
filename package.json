@@ -1,17 +1,18 @@
 {
   "name": "@dteam/safe-signer",
   "version": "0.1.0",
-  "description": "Get ethers.Signer from multiple resources",
+  "author": "dteam",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "engines": {
+    "node": ">=16"
+  },
+  "description": "Creating an ethers.Signer from the third party secret storages",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/"
   ],
-  "license": "MIT",
-  "keywords": [],
-  "engines": {
-    "node": ">=16"
-  },
   "scripts": {
     "test": "c8 ava",
     "lint": "gts lint",
@@ -60,5 +61,28 @@
       "html",
       "json-summary"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DTeam-Top/safe-signer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DTeam-Top/safe-signer/issues"
+  },
+  "homepage": "https://github.com/DTeam-Top/safe-signer/blob/main/README.md",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "ethereum",
+    "web3",
+    "wallet",
+    "ethers",
+    "security"
+  ],
+  "tags": [
+    "typescript",
+    "tools"
+  ]
 }

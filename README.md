@@ -2,7 +2,7 @@
 
 **If you need a wallet or singer in your backend server, this project is for you.**
 
-It aims to create an [ethers.Signer](https://docs.ethers.org/v5/api/signer/#Signer) from third party secret storages. Currently, it supports:
+It aims to create an [ethers.Signer](https://docs.ethers.org/v5/api/signer/#Signer) from the third party secret storages. Currently, it supports:
 
 - Private key
   - This is only for testing purposes, not recommend in production environments.
