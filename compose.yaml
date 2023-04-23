@@ -1,0 +1,17 @@
+services:
+  vault:
+    image: hashicorp/vault
+    ports:
+      - "8200:8200"
+    environment:
+      VAULT_ADDR: "http://0.0.0.0:8200"
+      VAULT_DEV_ROOT_TOKEN_ID: "vault-plaintext-root-token"
+    cap_add:
+      - IPC_LOCK
+
+  localstack:
+    image: localstack/localstack
+    ports:
+      - "4566:4566"
+    environment:
+      SERVICES: secretsmanager,kms
